@@ -1,0 +1,270 @@
+
+<!doctype html> 
+<html lang="en">
+
+	<head>
+    <meta charset="utf-8">
+
+    <title>Crafting the User Journey - GDI Boston</title>
+
+    <meta name="description" content="Girl Develop It framework for easily creating beautiful presentations using HTML in GDI theme. Forked from Hakim El Hattab's reveal.js">
+    <meta name="author" content="Girl Develop It">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/gdisunny.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <!-- light editor<link rel="stylesheet" href="lib/css/light.css">-->
+    <!-- dark editor--><link rel="stylesheet" href="lib/css/dark.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    
+    <link rel="stylesheet" href="plugin/accessibility-helper/css/accessibility-helper.css">
+
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+
+    <!-- If use the PDF print sheet so students can print slides-->
+    
+    <link rel="stylesheet" href="css/print/pdf.css" type="text/css" media="print">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			  <!-- Opening slide -->
+        <section>
+          <img src = "img/circle-gdi-logo.png">
+          <h3>Crafting the User Journey</h3>
+          <h4>Learning to Scaffold an Experience</h4>
+        </section>
+        
+        <!-- Welcome-->
+        <section class="hide-pdf">
+          <h3>Welcome!</h3>
+          <div align="left">
+          <p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
+          <br>
+          <h4><b>Some "rules"</b></h4>
+          <b><ul>
+            <li>We are here for you!</li>
+            <li>Every question and idea is important</li>
+            <li>Help each other</li>
+            <li>Have fun</li>
+          </ul></b>
+          </div>
+        </section>
+
+        <section>
+          <h3>Thank you!</h3>
+          <div>
+          <p align="left">MeYouHealth offers a well-being program that helps people eat better, walk more, quit smoking, and make small but meaningful changes.</p>
+          <img src="img/myh.png" />
+          </div>
+        </section>
+        
+        <section>
+          <h3>Let's get acquainted.</h3>
+          <img src="img/hai.jpg" />
+          <div>
+            <p>Tell us about yourself.</p>
+          <aside class="notes">
+          <ul>
+            <li>Who are you?</li>
+            <li>What do you hope to get out of the class?</li>
+            <li>What is a delightful product experience you had recently?</li>
+          </ul>
+        </aside>
+          </div>
+        </section>
+
+        <section>
+          <h3>Now, here's the plan</h3>
+          <div>
+          <ul>
+            <li>What is UX?</li>
+            <li>What is a user journey?</li>
+            <li>Let's do one together</li>
+            <li>DIY!</li>
+            <li>Show & Tell</li>
+            <li>Q&A</li>
+          </ul>
+        </div>
+        </section>
+        
+        <!-- What is UX?-->
+        <section>
+          <h3>What is UX?</h3>
+          <aside class="notes">"User experience encompasses all aspects of the end-user's interaction with the company, its services, and its products." - Jakob Nielsen & Don Norman</aside>
+          <img src = "img/ux.jpg">
+        </section>
+
+        <section>
+          <h3>Information architecture?</h3>
+          <div>
+         <p>Just as buildings need scaffolding, experiences need scaffolding, too.</p>
+		</div>
+        </section>
+
+         <section>
+          <h3>Information architecture?</h3>
+          <div>
+         <p>Site structure</p>
+		 <img src = "img/NSQ_siteMap.jpg">
+		</div>
+        </section>
+
+        <section>
+          <h3>Information architecture?</h3>
+          <div>
+         <p>Navigation</p>
+		 <img src = "img/sogMenu.jpeg">
+		</div>
+        </section>
+
+        <!-- What is a user journey?-->
+        <section>
+          <h3>What is a user journey?</h3>
+          <div>
+          <p>How a user gets from <br>point A <b>(need/desire)</b> to <br> point B <b>(goal)</b> within a product.</p>
+          <aside class="notes">It's part of the <b>information architecture</b> that helps scaffold an experience.</aside>
+          <img src = "img/papb.jpg">
+      </div>
+        </section>
+
+         <section>
+          <h3>What is a user journey?</h3>
+          <div>
+          <p>And making sure the journey is as delightful as possible.</p>
+          <img src = "img/papb_straight.jpg">
+      </div>
+        </section>
+
+         <section>
+          <h3>In the wild</h3>
+          <div>
+		 <a href="http://neighborhoodsquare.com" target=blank;><img src = "img/NSQ_nbhdPick.jpg"></a>
+		</div>
+        </section>
+
+        <section>
+          <h3>Real Life breakdown</h3>
+          <img src = "img/mbta.jpg">
+        </section>
+        
+        <!-- Workshop!-->
+        
+        <section>
+          <h3>DIY!</h3>
+          <div>
+          <h4 align="left">Rethink the experience of grocery shopping to make it more delightful.</h4>
+          <p align="left"><b>Map out the current grocery store experience from store entry to product purchase to leaving the store.</b></p>
+         <ul class="grey">
+            <li>What are the pain points and user needs?</li>
+            <li>How is technology being used?</li>
+            <li>What are the opportunities for improvement?</li>
+          </ul>
+          <br>
+          <br>
+          <p align="left"><b>Map out the delightful grocery store experience.</b></p>
+          <ul class="grey">
+            <li>What are the different decision points?</li>
+            <li>How could technology help?</li>
+            <li>How would the store need to change to make these improvements?</li>
+          </ul>
+      </div>
+        </section>
+
+        <section>
+        <h3>Show & Tell</h3>
+
+        </section>
+        
+        <!-- Recap-->
+        <section>
+        <h3>Recap</h3>
+        </section>
+
+        <section>
+        <h3>Q&A</h3>
+        </section>
+
+        <section>
+        <h3>Resources</h3>
+        <div>
+          <p><a href="http://www.servicedesigntools.org/", target=blank;>Service Design Tools</a></p>
+          <p><a href="http://uxdesign.cc/", target=blank;>UXdesign.cc</a></p>
+          <p><a href="http://boxesandarrows.com/", target=blank;>Boxes and Arrows</a></p>
+          <p><a href="http://www.uxmatters.com/", target=blank;>UX Matters</a></p>
+          <p><a href="http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101", target=blank;><u>Designing for the Digital Age</u> by Kim Goodwin</a></p>
+          <p><a href="http://www.amazon.com/Design-Real-World-Ecology-Social/dp/0897331532"><u>Design for the Real World</u> by Victor Papanek</a></p>
+        </div>
+        </section>
+
+         <section>
+        <h3>Thank you!</h3>
+        <div>
+          <p><a href="https://www.linkedin.com/in/piquancy", target=blank;>LinkedIn</a></p>
+          <p><a href="https://medium.com/@piquancy", target=blank;>Medium</a></p>
+          <p><a href="http://twitter.com/piquancy", target=blank;>@piquancy</a></p>
+          <p><a href="mailto:piquancy@gmail.com">piquancy@gmail.com</a></p>
+        </div>
+        </section>
+       
+</div>
+
+    <footer>
+        <div class="copyright">
+          HTML/CSS ~ Girl Develop It ~
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div>
+      </footer>
+		</div>
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+	</body>
+</html>
